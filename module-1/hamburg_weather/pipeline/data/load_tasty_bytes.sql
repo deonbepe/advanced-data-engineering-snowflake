@@ -304,7 +304,7 @@ COPY INTO {{env}}_tasty_bytes.raw_pos.country
    city,
    city_population
 )
-FROM @{{env}}_tasty_bytes.public.s3load/raw_pos/country/;
+FROM @{{env}}_tasty_bytes.public.s3load/raw_pos/country/; 
 
 
 -- franchise table load
